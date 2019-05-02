@@ -60,7 +60,7 @@ namespace TestAutomationWeb.NetCore2.Utils
         }
         public string GetText(By by)
         {
-            return webDriver.FindElement(by).GetAttribute("value");
+            return webDriver.FindElement(by).Text;
         }
         public string GetText(string Id)
         {

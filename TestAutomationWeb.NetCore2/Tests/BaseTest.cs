@@ -10,7 +10,7 @@ using Xunit.Sdk;
 
 namespace TestAutomationWeb.NetCore2.Tests
 {
-    class BaseTest : IDisposable
+    public class BaseTest : IDisposable
     {
         public BaseTest()
         {

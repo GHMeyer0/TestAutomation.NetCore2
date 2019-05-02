@@ -17,7 +17,7 @@ namespace TestAutomationWeb.NetCore2.Utils
         {
             if (driver == null)
             {
-                switch (Configuration.browser)
+                switch (Configuration.GetBrowser())
                 {
                     case Browser.Firefox:
                         FirefoxOptions firefoxOptions = new FirefoxOptions();

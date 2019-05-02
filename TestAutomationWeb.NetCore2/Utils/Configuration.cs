@@ -5,15 +5,14 @@ using System.Text;
 
 namespace TestAutomationWeb.NetCore2.Utils
 {
-    class Configuration
+    static class Configuration
     {
         private static IConfiguration _configuration;
-        public static Browser browser = GetBrowser();
-        public static bool CLOSE_BROWSER = false;
-        public Configuration()
+        public static bool CLOSE_BROWSER = true;
+        static Configuration()
         {
             var builder = new ConfigurationBuilder()
-                                .AddJsonFile("appsettings.json");
+                                .AddJsonFile($"appsettings.json");
 
             _configuration = builder.Build();
 
