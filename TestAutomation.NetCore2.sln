@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAutomationApi.NetCore2", "TestAutomationApi.NetCore2\TestAutomationApi.NetCore2.csproj", "{4BB347D3-A3FA-4006-BC7B-685DD2C4C2CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAutomationWeb.NetCore2", "TestAutomationWeb.NetCore2\TestAutomationWeb.NetCore2.csproj", "{7898188D-EBCD-42D5-B713-85909F0D6E8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BB347D3-A3FA-4006-BC7B-685DD2C4C2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB347D3-A3FA-4006-BC7B-685DD2C4C2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB347D3-A3FA-4006-BC7B-685DD2C4C2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB347D3-A3FA-4006-BC7B-685DD2C4C2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7898188D-EBCD-42D5-B713-85909F0D6E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7898188D-EBCD-42D5-B713-85909F0D6E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7898188D-EBCD-42D5-B713-85909F0D6E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7898188D-EBCD-42D5-B713-85909F0D6E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6897E7E-2B76-4C0F-8927-21BCEB7D850D}
+	EndGlobalSection
+EndGlobal

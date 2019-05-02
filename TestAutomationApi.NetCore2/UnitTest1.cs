@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace TestAutomation_.NetCore2
+namespace TestAutomationApi.NetCore2
 {
     public class UnitTest1
     {
