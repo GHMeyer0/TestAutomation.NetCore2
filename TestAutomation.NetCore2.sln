@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAutomationApi.NetCore2"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAutomationWeb.NetCore2", "TestAutomationWeb.NetCore2\TestAutomationWeb.NetCore2.csproj", "{7898188D-EBCD-42D5-B713-85909F0D6E8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutomationSrBarriga.NetCore2", "TestAutomationSrBarriga.NetCore2\TestAutomationSrBarriga.NetCore2.csproj", "{E4FC728F-B695-4DF7-A802-F7ED862CD834}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7898188D-EBCD-42D5-B713-85909F0D6E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7898188D-EBCD-42D5-B713-85909F0D6E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7898188D-EBCD-42D5-B713-85909F0D6E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FC728F-B695-4DF7-A802-F7ED862CD834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FC728F-B695-4DF7-A802-F7ED862CD834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FC728F-B695-4DF7-A802-F7ED862CD834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FC728F-B695-4DF7-A802-F7ED862CD834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
