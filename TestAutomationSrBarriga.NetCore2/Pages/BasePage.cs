@@ -9,27 +9,27 @@ namespace TestAutomationSrBarriga.NetCore2.Pages
 {
     class BasePage
     {
-        protected WebDriverExtensions driverExtensions;
+        protected WebDriverExtensions dExt;
 
         public BasePage()
         {
-            driverExtensions = new WebDriverExtensions();
+            dExt = new WebDriverExtensions();
         }
         
         public void AcessarPaginaInicial()
         {
-            driverExtensions.LoadPage("https://srbarriga.herokuapp.com");
+            dExt.LoadPage("https://srbarriga.herokuapp.com");
         }
 
 
         public string GetSuccessAlertText()
         {
-            return driverExtensions.GetText(By.XPath("//div[@class='alert alert-success']"));
+            return dExt.GetText(By.XPath("//div[@class='alert alert-success']"));
         }
 
         public string GetDangerAlertText()
         {
-            return driverExtensions.GetText(By.XPath("//div[@class='alert alert-danger']"));
+            return dExt.GetText(By.XPath("//div[@class='alert alert-danger']"));
         }
 
     }

@@ -8,7 +8,7 @@ namespace TestAutomationSrBarriga.NetCore2.Utils
     static class Configuration
     {
         private static IConfiguration _configuration;
-        public static bool CLOSE_BROWSER = true;
+        public static bool CLOSE_BROWSER = false;
         static Configuration()
         {
             var builder = new ConfigurationBuilder()

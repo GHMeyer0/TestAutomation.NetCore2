@@ -9,15 +9,15 @@ namespace TestAutomationSrBarriga.NetCore2.Pages
     {
         public void SetEmail(string email)
         {
-            driverExtensions.SetText("email", email);
+            dExt.SetText("email", email);
         }
         public void SetSenha(string psw)
         {
-            driverExtensions.SetText("senha", psw);
+            dExt.SetText("senha", psw);
         }
         public void Entrar()
         {
-            driverExtensions.Click(By.XPath("//button[.='Entrar']"));
+            dExt.Click(By.XPath("//button[.='Entrar']"));
         }
 
         public void Logar(string email, string psw)

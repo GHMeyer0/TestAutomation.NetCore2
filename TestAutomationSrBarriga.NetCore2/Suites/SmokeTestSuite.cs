@@ -8,6 +8,6 @@ namespace TestAutomationSrBarriga.NetCore2.Suites
     class SmokeTestSuite
     {
 
-        [TestCaseOrderer]
+        
     }
 }
